@@ -24,6 +24,7 @@ body {
 }
 
 .char {
+  background: var(--sec-bg-color);
   display: flex;
   text-align: center;
   flex-direction: column;
