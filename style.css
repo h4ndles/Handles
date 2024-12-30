@@ -23,8 +23,13 @@ body {
   height: fit-content;
 }
 
+.char h1 p {
+  margin: 5px;
+}
+
 .char {
   background: var(--sec-bg-color);
+  border-radius: 10px;
   display: flex;
   text-align: center;
   flex-direction: column;
