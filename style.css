@@ -26,12 +26,12 @@ body {
 }
 
 .char h1 {
-  font-size: 32px;
+  font-size: 64px;
   margin: 5px;
 }
 
 .char p {
-  font-size: 24px;
+  font-size: 12px;
   margin: 5px;
 }
 
