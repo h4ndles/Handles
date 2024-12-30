@@ -5,7 +5,7 @@ function loadSymbols() {
     div.className = "char";
     div.id = "char" + [i];
     div.innerHTML =
-      '<h1>&#' + [start] + '</h1>';
+      '<h1>&#' + start + '</h1>';
   }
 }
 
