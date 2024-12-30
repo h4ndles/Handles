@@ -13,6 +13,7 @@ function loadSymbols() {
     document.getElementById("clist").appendChild(div);
     div.className = "char";
     div.id = "char" + [start];
+    div.setAttribute("onclick","location.href='youtube.com/@" + entity + "'");
     div.innerHTML =
       '<h1 onclick="location.href=' + "youtube.com/@" + entity + '>' + entity + '</h1><p>' + result + '</p>';
   }
