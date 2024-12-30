@@ -14,7 +14,7 @@ function loadSymbols() {
     div.className = "char";
     div.id = "char" + [start];
     div.innerHTML =
-      '<h1>' + entity + '</h1><p>' + result + '</p>';
+      '<h1 onclick="location.href=' + "youtube.com/@" + entity + '>' + entity + '</h1><p>' + result + '</p>';
   }
 }
 
