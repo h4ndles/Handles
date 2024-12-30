@@ -32,6 +32,7 @@ body {
 .char {
   background: var(--sec-bg-color);
   border-radius: 10px;
+  width: 120px;
   display: flex;
   text-align: center;
   flex-direction: column;
