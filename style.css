@@ -23,6 +23,12 @@ body {
   height: fit-content;
 }
 
+.char {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
 .navbar {
   display: flex;
   width: fit-content;
