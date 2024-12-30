@@ -1,5 +1,5 @@
 function loadSymbols() {
-  for (let start = 44032; start < 55215; start++) {
+  for (let start = 44032; start < 44132; start++) {
     var div = document.createElement("div");
     document.getElementById("clist").appendChild(div);
     div.className = "char";
