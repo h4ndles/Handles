@@ -25,7 +25,13 @@ body {
   height: fit-content;
 }
 
-.char h1, .char p {
+.char h1 {
+  font-size: 32px;
+  margin: 5px;
+}
+
+.char p {
+  font-size: 24px;
   margin: 5px;
 }
 
