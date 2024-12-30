@@ -5,7 +5,7 @@ function decodeHtml(html) {
 }
 
 function loadSymbols() {
-  for (let start = 44032; start < 44215; start++) {
+  for (let start = 44032; start < 55203; start++) {
     var entity = "&#" + start;
     var hex = decodeHtml(entity).codePointAt(0).toString(16);
     var result = "U+" + "0000".substring(0, 4 - hex.length) + hex.toUpperCase();
