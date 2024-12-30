@@ -7,12 +7,15 @@
 
 body {
   background: var(--main-bg-color);
+  align-items: center;
   color: white;
   font-family: Inter;
 }
 
 .navbar {
   display: flex;
+  width: fit-content;
+  height: fit-content;
   padding: 15px;
   background: var(--sec-bg-color);
   text-align: center;
