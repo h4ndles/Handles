@@ -26,19 +26,19 @@ body {
 }
 
 .char h1 {
-  font-size: 56px;
+  font-size: 96px;
   margin: 5px;
 }
 
 .char p {
-  font-size: 16px;
+  font-size: 24px;
   margin: 5px;
 }
 
 .char {
   background: var(--sec-bg-color);
   border-radius: 10px;
-  width: 120px;
+  width: 180px;
   display: flex;
   text-align: center;
   flex-direction: column;
