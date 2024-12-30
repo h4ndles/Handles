@@ -15,7 +15,7 @@ function loadSymbols() {
     div.id = "char" + [start];
     div.setAttribute("onclick","location.href='https://www.youtube.com/@" + decodeHtml(entity) + "'");
     div.innerHTML =
-      '<h1 onclick="location.href=' + "youtube.com/@" + entity + '>' + entity + '</h1><p>' + result + '</p>';
+      '<h1>' + entity + '</h1><p>' + result + '</p>';
   }
 }
 
