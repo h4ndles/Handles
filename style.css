@@ -12,11 +12,15 @@ body {
   font-family: Inter;
 }
 
+h1 .navar {
+  margin: 0;
+}
+
 .navbar {
   display: flex;
   width: fit-content;
   height: fit-content;
-  padding: 15px;
+  padding: 25px;
   background: var(--sec-bg-color);
   text-align: center;
 }
