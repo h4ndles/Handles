@@ -25,6 +25,7 @@ body {
 
 .char {
   display: flex;
+  text-align: center;
   flex-direction: column;
   padding: 15px;
 }
