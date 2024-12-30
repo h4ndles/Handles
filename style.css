@@ -19,7 +19,7 @@ body {
 
 .clist {
   display: flex;
-  justify-items: center;
+  align-items: center;
   flex-wrap: wrap;
   width: 100%;
   height: fit-content;
