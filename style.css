@@ -2,10 +2,18 @@
 
 :root {
   --main-bg-color: rgb(20,20,24);
+  --sec-bg-color: rgb(26,26,32);
 }
 
 body {
   background: var(--main-bg-color);
   color: white;
   font-family: Inter;
+}
+
+.navbar {
+  display: flex;
+  padding: 15px;
+  background: var(--main-bg-color);
+  text-align: center;
 }
