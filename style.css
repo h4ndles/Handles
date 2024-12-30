@@ -7,7 +7,7 @@
 
 body {
   background: var(--main-bg-color);
-  align-items: center;
+  justify-items: center;
   color: white;
   font-family: Inter;
 }
