@@ -6,6 +6,7 @@
 }
 
 body {
+  margin: 0;
   background: var(--main-bg-color);
   justify-items: center;
   color: white;
@@ -20,6 +21,7 @@ body {
   display: flex;
   width: fit-content;
   height: fit-content;
+  margin: 15px;
   padding: 25px;
   background: var(--sec-bg-color);
   text-align: center;
