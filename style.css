@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  justify-items: center;
   width: 100%;
   height: fit-content;
 }
