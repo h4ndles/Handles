@@ -44,12 +44,12 @@ body {
   flex-direction: column;
   padding: 10px;
   margin: 10px;
+  transition: .5s;
 }
 
 .char:hover {
   transform: scale(1.2);
   filter: drop-shadow(0px 10px 15px rgb(0,0,0,.5));
-  transition: .5s
 }
 
 .navbar {
