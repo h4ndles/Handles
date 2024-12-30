@@ -3,9 +3,9 @@ function loadSymbols() {
     var div = document.createElement("div");
     document.getElementById("clist").appendChild(div);
     div.className = "char";
-    div.id = "char" + [i];
+    div.id = "char" + [start];
     div.innerHTML =
-      '<h1>&#' + start + '</h1>';
+      '<h1>&#' + [start] + '</h1>';
   }
 }
 
